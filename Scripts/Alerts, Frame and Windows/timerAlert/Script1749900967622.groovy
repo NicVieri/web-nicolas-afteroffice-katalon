@@ -25,9 +25,9 @@ WebUI.navigateToUrl('https://demoqa.com/alerts')
 
 WebUI.verifyElementVisible(findTestObject('Alerts/Alerts-header'))
 
-WebUI.verifyElementClickable(findTestObject('Alerts/btn-timerAlert'))
+WebUI.verifyElementClickable(findTestObject('Alerts/timerAlert/btn-timerAlert'))
 
-WebUI.click(findTestObject('Alerts/btn-timerAlert'))
+WebUI.click(findTestObject('Alerts/timerAlert/btn-timerAlert'))
 
 WebUI.verifyAlertNotPresent(2)
 

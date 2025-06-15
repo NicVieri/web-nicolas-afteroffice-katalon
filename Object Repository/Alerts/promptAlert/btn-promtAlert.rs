@@ -6,12 +6,11 @@
    <elementGuidId>3f9ff4f1-14a9-43b0-a239-967d72031276</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[@id='promtButton']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>confirmAlert-Cancel</name>
+   <name>confirmAlert-OK</name>
    <tag></tag>
-   <elementGuidId>a4a2d21b-736e-4cb6-90d8-3e36ae87fb71</elementGuidId>
+   <elementGuidId>e80b03a2-2f1f-43f3-a4ed-4ab171c47282</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[text()=&quot;Ok&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[text()=&quot;Cancel&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

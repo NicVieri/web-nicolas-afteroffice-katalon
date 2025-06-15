@@ -25,21 +25,21 @@ WebUI.navigateToUrl('https://demoqa.com/alerts')
 
 WebUI.verifyElementVisible(findTestObject('Alerts/Alerts-header'))
 
-WebUI.verifyElementClickable(findTestObject('Alerts/btn-promtAlert'))
+WebUI.verifyElementClickable(findTestObject('Alerts/promptAlert/btn-promtAlert'))
 
-WebUI.click(findTestObject('Alerts/btn-promtAlert'))
+WebUI.click(findTestObject('Alerts/promptAlert/btn-promtAlert'))
 
 WebUI.dismissAlert()
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Alerts/btn-promtAlert'))
+WebUI.click(findTestObject('Alerts/promptAlert/btn-promtAlert'))
 
 WebUI.setAlertText('Luther')
 
 WebUI.acceptAlert()
 
-WebUI.verifyElementVisible(findTestObject('Alerts/promptAlert-Luther'))
+WebUI.verifyElementVisible(findTestObject('Alerts/promptAlert/promptAlert-Luther'))
 
 WebUI.delay(2)
 

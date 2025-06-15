@@ -25,21 +25,21 @@ WebUI.navigateToUrl('https://demoqa.com/alerts')
 
 WebUI.verifyElementVisible(findTestObject('Alerts/Alerts-header'))
 
-WebUI.verifyElementClickable(findTestObject('Alerts/btn-confirmAlert'))
+WebUI.verifyElementClickable(findTestObject('Alerts/confirmAlert/btn-confirmAlert'))
 
-WebUI.click(findTestObject('Alerts/btn-confirmAlert'))
+WebUI.click(findTestObject('Alerts/confirmAlert/btn-confirmAlert'))
 
 WebUI.acceptAlert()
 
-WebUI.verifyElementVisible(findTestObject('Alerts/confirmAlert-OK'))
+WebUI.verifyElementVisible(findTestObject('Alerts/confirmAlert/confirmAlert-OK'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Alerts/btn-confirmAlert'))
+WebUI.click(findTestObject('Alerts/confirmAlert/btn-confirmAlert'))
 
 WebUI.dismissAlert()
 
-WebUI.verifyElementVisible(findTestObject('Alerts/confirmAlert-Cancel'))
+WebUI.verifyElementVisible(findTestObject('Alerts/confirmAlert/confirmAlert-Cancel'))
 
 WebUI.delay(2)
 

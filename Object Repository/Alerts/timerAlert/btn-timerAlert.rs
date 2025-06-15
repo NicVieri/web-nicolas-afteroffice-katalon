@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>promptAlert-Luther</name>
+   <name>btn-timerAlert</name>
    <tag></tag>
-   <elementGuidId>68d35f0a-3e20-4929-8f6c-860356108ec7</elementGuidId>
+   <elementGuidId>bbbd5eb5-3cad-487e-a13c-19ada12270eb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[@id='timerAlertButton']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[text()=&quot;Luther&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

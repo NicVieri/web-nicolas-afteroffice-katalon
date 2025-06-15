@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>confirmAlert-OK</name>
+   <name>btn-confirmAlert</name>
    <tag></tag>
-   <elementGuidId>e80b03a2-2f1f-43f3-a4ed-4ab171c47282</elementGuidId>
+   <elementGuidId>821a5cd4-8a98-4f4c-bf6d-0df2af89fb2b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//button[@id='confirmButton']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[text()=&quot;Ok&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
